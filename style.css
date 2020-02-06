@@ -11,6 +11,12 @@
 
 */
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape)
+
 @media (max-width: 100%) {
 	body {
 		flex-direction: column;
