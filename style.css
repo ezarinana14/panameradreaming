@@ -1,0 +1,146 @@
+
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) 
+  and (orientation : portrait)
+  and (orientation : landscape) { }
+
+*/
+
+@media (max-width: 100%) {
+	body {
+		flex-direction: column;
+		height: 100%;
+	}
+}
+
+
+
+body {
+	margin: 0;
+	widows: 100%;
+	height: auto;
+
+
+}
+
+/*body {
+	background-image: url("tokyo.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	position: sticky;
+
+}
+*/
+
+
+#background {
+	background-image: url("tokyo.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	position: sticky;
+	filter: contrast( 150%);
+	opacity: .85;
+
+}
+
+
+/*#gif {
+	background-image: url("drops.gif");
+	background-size: cover;
+	color: grey;
+	background-position: top;
+}
+*/
+
+
+
+
+.play-button {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 750px;
+	cursor: pointer;
+
+	/*margin-left: 75px;*/
+	
+}
+
+
+/*audio {
+	width: 200px;
+	background-image: url("wolf.png");
+
+}*/
+
+#startOrStopImg {
+	/*transform: rotate(-70deg);*/
+	height: 150px;
+	filter: saturate(100%);
+}
+
+/*audio::-webkit-media-controls-play-button {
+	background-image: url("wolf.png");
+	background-size: 50px;
+}
+
+ */
+
+ audio::-webkit-media-controls-timeline-container {
+ 	background-image: url("panamerasanch.png");
+ }
+
+
+audio:focus {
+	outline: 0;
+}
+
+
+.icons {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 700px;
+	filter: invert(100%);
+	margin-bottom: 50px
+	color: white;
+}
+
+
+.ig-icon {
+	margin-right: 30px;
+}
+
+.twitter-icon {
+	margin-right: 30px;
+}
+
+.apple-music {
+	margin-right: 30px;
+}
+
+.spotty {
+	margin-right: 30px;
+}
+
+
+
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
