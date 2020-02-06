@@ -15,7 +15,11 @@
 and (min-device-width : 375px) 
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape)
+and (orientation : landscape) {
+	#background {
+		background-size: cover;
+	}
+}
 
 @media (max-width: 100%) {
 	body {
